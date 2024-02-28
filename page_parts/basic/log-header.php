@@ -7,10 +7,6 @@
 ?>
 
 <header>
-    <div>
-        <a href="<?php echo Config::get("root/path") . "index.php"; ?>"><img src="<?php echo $pathToLogo ?>public/assets/images/logos/large.png" alt="logo" class="wide-logo"></a>
-    </div>
-    <div class="inline-logo-separator">〡</div>
     <div id="menu-login-credentials-container">
         <div style="margin: 0 12px"></div>
         <div class="flex-column">
@@ -22,7 +18,7 @@
             <!----------------------  REMEMBER ME  ---------------------->
             <div class="row-v-flex">
                 <input type="checkbox" tabindex="3" name="remember" form="login-form" checked>
-                <label class="small-label" for="remember">Kepp me connected</label>
+                <label class="small-label" for="remember">Keep me connected</label>
             </div>
         </div>
         <div style="margin: 0 4px"></div>
