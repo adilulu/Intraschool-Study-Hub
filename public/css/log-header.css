@@ -1,6 +1,6 @@
 header {
     background-color: black;
-    height: 74px;
+    height: 100vh;
     display: flex;
     align-items: center;
 }
@@ -15,10 +15,6 @@ header {
 #menu-login-credentials-container {
     display: flex;
     margin-left: auto;
-}
-
-#keep-me-connected {
-    margin: 0 3px 0 0;
 }
 
 #connect {
