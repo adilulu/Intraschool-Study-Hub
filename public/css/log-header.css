@@ -2,7 +2,10 @@ header {
     background-color: black;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background-image: url('C:\Users\User\Pictures\heart.jpg');
 }
 
 .wide-logo {
@@ -10,11 +13,6 @@ header {
     width: 220px;
     margin-left: 20px;
     height: 35px;
-}
-
-#menu-login-credentials-container {
-    display: flex;
-    margin-left: auto;
 }
 
 #connect {
